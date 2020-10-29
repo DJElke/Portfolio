@@ -43,5 +43,6 @@
         background-image: url("/images/portfolio-face-01.svg");
         background-size:100% 100%;
         background-repeat: no-repeat;
+		object-fit: cover;
 	}
 </style>
