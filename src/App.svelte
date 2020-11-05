@@ -2,7 +2,6 @@
 	import {navOptions} from './Navigation/Navigation.svelte';
 	let selected = navOptions[0];
 	let intSelected = 0;
-	let isIndex;
 
 	const changeComponent = (event) => {
 		selected = navOptions[event.srcElement.id];
