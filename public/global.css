@@ -60,3 +60,29 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+.title{
+	font-family: Condor;
+}
+.title--big{
+	font-size: 170px;
+	font-weight: bold;
+	color: #FFFFFF;
+	opacity: 0.3;
+	margin: 0;
+	z-index: 1;
+	left: 0;
+	top: 5rem;
+	position: absolute;
+}
+
+.title--small{
+	font-size: 72px;
+	font-weight: lighter;
+	color: #1E52DC;
+	z-index: 2;
+	margin-left: 15rem;
+	left: 0;
+	top: 5rem;
+	position: absolute;
+}
